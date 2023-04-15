@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JPDB | Student Enrollment Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1 class="heading">Student Enrollment Form</h1>
+        <form id="student-form" action="#">
+            <label for="rollNo">Roll No.</label>
+            <input required id="rollNo" type="number" autofocus>
+            <label for="name">Full Name</label>
+            <input required disabled id="name" type="text">
+            <label for="class">Class</label>
+            <input required disabled id="class" type="text">
+            <label for="dob">DOB</label>
+            <input required disabled id="dob" type="date">
+            <label for="address">Address</label>
+            <input required disabled id="address" type="text">
+            <label for="enDate">Enrollment Date</label>
+            <input required disabled id="enDate" type="date">
+        </form>
+        <div class="submit-buttons">
+            <button id="change" disabled>Update</button>
+            <button id="save" disabled>Save</button>
+            <button id="reset" disabled>Reset</button>
+        </div>
+    </div>
+</body>
+<script src="http://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+<script src="./index.js"></script>
+
+</html>
