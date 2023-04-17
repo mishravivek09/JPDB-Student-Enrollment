@@ -28,5 +28,5 @@
 
 ### Screenshots
 
-![](/images/pic1.png)
-![](/images/pic2.png)
+![](/images/pic1.PNG)
+![](/images/pic2.PNG)
